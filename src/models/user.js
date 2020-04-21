@@ -84,7 +84,7 @@ userSchema.pre('save', async function(next){
 //When deleted.
 // userSchema.pre('remove', async function(){
 //     const user.js = this;
-//     awai
+//     await
 // })
 
 const User = mongoose.model('User', userSchema);
